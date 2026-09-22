@@ -1,0 +1,116 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/center/center",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/user-manage/useradd",
+      "style": {
+        "navigationBarTitleText": "添加用户"
+      }
+    },
+    {
+      "path": "pages/user-manage/userlist",
+      "style": {
+        "navigationBarTitleText": "用户列表"
+      }
+    },
+    {
+      "path": "pages/news-manage/newsadd",
+      "style": {
+        "navigationBarTitleText": "创建公告"
+      }
+    },
+    {
+      "path": "pages/news-manage/newslist",
+      "style": {
+        "navigationBarTitleText": "公告列表"
+      }
+    },
+    {
+      "path": "pages/news-manage/newsedit",
+      "style": {
+        "navigationBarTitleText": "编辑公告"
+      }
+    },
+    {
+      "path": "pages/news-manage/newsdetail",
+      "style": {
+        "navigationBarTitleText": "公告详情"
+      }
+    },
+    {
+      "path": "pages/product-manage/productadd",
+      "style": {
+        "navigationBarTitleText": "发布帖子"
+      }
+    },
+    {
+      "path": "pages/product-manage/productlist",
+      "style": {
+        "navigationBarTitleText": "帖子列表"
+      }
+    },
+    {
+      "path": "pages/product-manage/productedit",
+      "style": {
+        "navigationBarTitleText": "编辑帖子"
+      }
+    },
+    {
+      "path": "pages/product-manage/productshow",
+      "style": {
+        "navigationBarTitleText": "帖子广场",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/product-manage/productshowdetail",
+      "style": {
+        "navigationBarTitleText": "帖子详情"
+      }
+    },
+    {
+      "path": "pages/notfound/tokenlose",
+      "style": {
+        "navigationBarTitleText": "登录失效",
+        "navigationStyle": "custom"
+      }
+	},
+	{
+		"path": "pages/login/signup",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "校园公告与兴趣帖子交流系统",
+    "navigationBarBackgroundColor": "#4366ce",
+    "backgroundColor": "#F8F8F8"
+  },
+  "uniIdRouter": {}
+}
